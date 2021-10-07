@@ -1,0 +1,28 @@
+body {
+    background-color: #996d33;
+    margin: 0;
+    padding: 0;
+}
+footer, header {
+    background-color: #0e469b;
+    align-items: center;
+    display: grid;
+    color: #3caaad;
+    justify-content: center;
+}
+main {
+    background-color: #001242;
+}
+li {
+    list-style-type: none;
+}
+p, h1, h2, h3 {
+    color: #3caaad;
+}
+.page {
+    width: 960px;
+    margin: 0 auto;
+}
+a, a:hover, a:visited {
+    color:aquamarine;
+}
