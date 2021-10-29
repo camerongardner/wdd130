@@ -118,6 +118,7 @@ button {
 }
 .midText {
     grid-column: 1;
+    justify-self: right;
 }
 .midPic {
     grid-column: 2;
