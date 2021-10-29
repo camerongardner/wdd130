@@ -1,39 +1,51 @@
 body {
-    background-color: #37b6af;
-    margin: 0;
+    background-color: #031942;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;  
     max-width: 960px;
 }
 header, footer {
-    background-color: #071a88;
+    background-color: #142480;
     display: grid;
-    grid-template-columns: 150px 100px 1fr;
+    padding: 10px;
 }
 header {
-    align-items: inherit;
+    align-items: center;
     justify-content: center;
     margin-bottom: 10px;
     margin-top: 10px;
+    grid-template-columns: 150px 100px 1fr;
+}
+footer {
+    grid-template-columns: 2fr 1fr;
 }
 ul {
+    text-decoration: none;
+}
+nav ul {
     display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
 li {
-    display: block;
     list-style-type: none;
     font-size: 20px;
     margin: 5px;
     padding: 5px;
     border-style: double;
-    border-color: #3caaad;
+    border-color: lightcyan;
+}
+a {
+    display: block;
+    padding: 5px;
 }
 h1, h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
 }
 p, h1, h2, h3 {
-    color: #3caaad;
+    color: rgb(81, 115, 177);
 }
 p {
     font-family: 'Times New Roman', Times, serif;
@@ -65,8 +77,7 @@ a, a:hover, a:visited {
     background-color: #3caaad;
 }
 .page {
-    margin: 0 auto;
-    background-color: #001242;
+    background-color: #021d68;
 
 }
 .banner {
@@ -77,6 +88,15 @@ a, a:hover, a:visited {
     margin: 0;
     grid-column: 1;
 }
+.banner img {
+    width: 100%;
+}
+.action {
+    position: absolute;
+    left: 600px;
+    top: 200px;
+    color:lightcyan;
+}
 .mid {
     position: relative;
     display: grid;
@@ -84,10 +104,10 @@ a, a:hover, a:visited {
     grid-row: 2;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+    padding: 20px;
 }
 .midText {
     grid-column: 1;
-    width:100px;
 }
 .midPic {
     grid-column: 2;
@@ -96,6 +116,7 @@ a, a:hover, a:visited {
     display: grid;
     position: relative;
     grid-template-columns: 1fr 100%;
+    padding: 20px;
 }
 .endPic {
     grid-column: 1;
@@ -107,26 +128,24 @@ a, a:hover, a:visited {
     grid-row: 1;
 }
 .ending {
-    grid-row: 4;
-    grid-column: 2;
-}
-.action {
-    position: absolute;
-    left: 600px;
-    top: 200px;
-    color:aquamarine;
+    text-align: center;
 }
 .picture {
-    box-shadow: 10px 15px #37b6af;
+    box-shadow: 10px 15px lightcyan;
 }
 .copyright {
     color: lightcyan;
     font-size: 20px;
-    grid-column: 1/4;
-    grid-row: 2;
     padding-left: 10px;
+    display: flex;
+    align-items: center;
 }
 .social {
-    grid-column: 4;
-    grid-row: 1/4;
+    justify-self: end;
+
+}
+.social ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
 }
