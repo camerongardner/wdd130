@@ -1,0 +1,17 @@
+body {
+    margin: 0 auto;
+    background-color: #CAA29D;
+}
+nav {
+    background-color: #A97973;
+}
+h1, h2, p {
+    font-family: 'Fira Sans', sans-serif;
+    color: #FFF3F2;
+}
+main {
+    background-color: #87754E;
+}
+a {
+    font-family: 'PT Serif', serif;
+}
