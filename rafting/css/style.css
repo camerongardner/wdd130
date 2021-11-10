@@ -122,6 +122,7 @@ button {
 }
 .midPic {
     grid-column: 2;
+    justify-self: right;
 }
 .end {
     display: grid;
