@@ -161,3 +161,46 @@ button {
     justify-content: space-between;
     padding: 0;
 }
+/* FAQ */
+.bundles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+}
+.familyrafting {
+    grid-column: 2;
+    justify-self: right;
+    padding-right: 20px;
+}
+.bundlestext {
+    grid-column: 1;
+    justify-self: right;
+}
+.getaways {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+}
+.getawaytext {
+    grid-column: 1;
+    justify-self: right;
+}
+.tent {
+    grid-column: 2;
+    justify-self: right;
+    padding-right: 20px;
+}
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+}
+.triptext {
+    grid-column: 1;
+    justify-self: right;
+}
+.rafting {
+    grid-column: 2;
+    justify-self: right;
+    padding-right: 20px;
+}
