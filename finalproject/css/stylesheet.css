@@ -22,7 +22,7 @@ a {
 header, footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: #A97973;
+    background-color: #4B332F;
 }
 a {
     color: #EEE5E9;
