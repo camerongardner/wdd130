@@ -161,7 +161,7 @@ button {
     justify-content: space-between;
     padding: 0;
 }
-/* FAQ */
+/* Pricing */
 .bundles {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -203,4 +203,28 @@ button {
     grid-column: 2;
     justify-self: right;
     padding-right: 20px;
+}
+/* FAQ */
+.provided {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+}
+.providedtext {
+    grid-column: 2;
+}
+.providedimage {
+    display: flex;
+    grid-column: 1;
+    grid-row: 1;
+    align-items: center;
+    justify-content: center;
+}
+.safeweather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+}
+.why {
+    text-align: center;
 }

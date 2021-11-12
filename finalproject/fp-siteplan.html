@@ -17,10 +17,13 @@
     <body>
         <div class="page">
             <header>
-                <h1>Website Tips N Tricks</h1>
+                <h1>Tips N Tricks</h1>
                 <nav>
-                    <ul>
-                        <li>Home</li>
+                    <ul class="listlinks">
+                        <li><a href="fp-siteplan.html" active="active">Home</a></li>
+                        <li><a href="clean.html">Clean Coding</a></li>
+                        <li><a href="visibility.html">Visibility and Clarity</a></li>
+                        <li><a href="organization.html">Organization and Flow</a></li>
                         <li><a href="#sitemap">Site Map</a></li>
                     </ul>
                 </nav>
@@ -124,6 +127,30 @@
                     </section>
                 </section>
             </main>
+            <footer>
+                <div class="copyright">&copy;<span id="copyright"></span> Tips N Tricks - Cameron Gardner - WDD130-21</div>
+                    <ul class="listlinks">
+                        <li>
+                            <a href="https://www.facebook.com" title="Facebook" target="_blank">
+                                <img src="images/facebook.png" alt="Facebook"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/?lang=en" title="Twitter" target="_blank">
+                                <img src="images/twitter.png" alt="Twitter" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com" title="Instagram" target="_blank">
+                                <img src="images/instagram.png" alt="Instagram" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+            <script>
+                document.getElementById('copyright').textContent = new Date().getFullYear();
+            </script>
         </div>
     </body>
 </html>
