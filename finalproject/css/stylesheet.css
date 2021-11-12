@@ -9,6 +9,7 @@ nav {
 h1, h2, h3, p {
     font-family: 'Fira Sans', sans-serif;
     color: #FFF3F2;
+    background-color: #805750;
 }
 main {
     background-color: #87754E;
