@@ -28,6 +28,11 @@ a {
 }
 header ul {
     grid-column: 2/4;
+    background-color: #805750;
+}
+header li:hover {
+    background-color: #87754E;
+    color: #FFF3F2;
 }
 header h1 {
     display: flex;
