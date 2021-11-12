@@ -1,7 +1,6 @@
 body {
     max-width: 960px;
     margin: 0 auto;
-    background-color: #CAA29D;
     background-color: #87754E;
 }
 nav {
@@ -15,14 +14,18 @@ h1, h2, h3, p {
 main {
     background-color: #7e5e59;;
 }
+main li {
+    color: #FFF3F2;
+}
 a {
     display: block;
     font-family: 'PT Serif', serif;
 }
 header, footer {
     display: grid;
+    margin: 10px;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: #4B332F;
+    background-color: #5F3D3A
 }
 a {
     color: #EEE5E9;
@@ -38,6 +41,7 @@ header li:hover {
 }
 header h1 {
     display: flex;
+    margin-left: 10px;
 }
 nav {
     margin: 15px;
