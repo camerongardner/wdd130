@@ -2,6 +2,7 @@ body {
     max-width: 960px;
     margin: 0 auto;
     background-color: #CAA29D;
+    background-color: #87754E;
 }
 nav {
     background-color: #A97973;
@@ -9,10 +10,10 @@ nav {
 h1, h2, h3, p {
     font-family: 'Fira Sans', sans-serif;
     color: #FFF3F2;
-    background-color: #805750;
+    /* background-color: #805750; */
 }
 main {
-    background-color: #87754E;
+    background-color: #7e5e59;;
 }
 a {
     display: block;
