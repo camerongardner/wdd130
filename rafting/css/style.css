@@ -46,6 +46,8 @@ h1, h2 {
 }
 p, h1, h2, h3 {
     color: #C4C4C4;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 p {
     font-family: 'Times New Roman', Times, serif;
@@ -127,7 +129,7 @@ button {
 .end {
     display: grid;
     position: relative;
-    grid-template-columns: 1fr 100%;
+    grid-template-columns: 1fr 1fr;
     padding: 20px;
 }
 .endPic {
