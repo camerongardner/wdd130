@@ -1,0 +1,21 @@
+form {
+    padding: 10px;
+    color:blueviolet;
+    background-color: cornsilk;
+}
+li {
+    list-style-type: none;
+    padding: 5px;
+}
+textarea {
+    width: 400px;
+    height: 150px;
+}
+input {
+    background-color: darkgray;
+    border-radius: 25px;
+    width: 150px;
+}
+label {
+    padding: 5px;
+}
