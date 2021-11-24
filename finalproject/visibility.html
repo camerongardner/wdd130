@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML, CSS tips, website fonts, HTML formating" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <title>Website Tips N Tricks</title>
+</head>
+    <body>
+        <div class="page">
+            <header>
+                <h1>Tips on Visibility</h1>
+                <nav>
+                    <ul class="listlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="clean.html">Clean Coding</a></li>
+                        <li><a href="visibility.html" active="active">Visibility and Clarity</a></li>
+                        <li><a href="organization.html">Organization and Flow</a></li>
+                        <li><a href="fp-siteplan.html">Site Plan</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section class="fonts">
+                    <h2>Fonts</h2>
+                    <p>Fonts can help give character to a website or cause content to be difficult to read.</p>
+                    <p><b>Image goes here</b></p>
+                </section>
+                <section class="color">
+                    <h2>Color Matching</h2>
+                    <p>Colors can be tricky, you need colors that work well with each other and are not to similar.</p>
+                    <p><b>Image goes here</b></p>
+                </section>
+                <section class="headings">
+                    <h2>Headings</h2>
+                    <p>Believe it ir not there is an order at which you use headings. These headings help indicate sections of 
+                        content.
+                    </p>
+                    <p><b>Image goes here</b></p>
+                </section>
+            </main>
+            <footer>
+                <div class="copyright">&copy;<span id="copyright"></span> Tips N Tricks - Cameron Gardner - WDD130-21</div>
+                    <ul class="listlinks">
+                        <li>
+                            <a href="https://www.facebook.com" title="Facebook" target="_blank">
+                                <img src="images/facebook.png" alt="Facebook"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/?lang=en" title="Twitter" target="_blank">
+                                <img src="images/twitter.png" alt="Twitter" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com" title="Instagram" target="_blank">
+                                <img src="images/instagram.png" alt="Instagram" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+            <script>
+                document.getElementById('copyright').textContent = new Date().getFullYear();
+            </script>
+        </div>
+    </body>
+</html>

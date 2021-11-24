@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML, CSS tips, website fonts, HTML formating" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <title>Website Tips N Tricks</title>
+</head>
+    <body>
+        <div class="page">
+            <header>
+                <h1>Tips on Organization</h1>
+                <nav>
+                    <ul class="listlinks">
+                        <li><a href="index.html" >Home</a></li>
+                        <li><a href="clean.html">Clean Coding</a></li>
+                        <li><a href="visibility.html">Visibility and Clarity</a></li>
+                        <li><a href="organization.html" active="active">Organization and Flow</a></li>
+                        <li><a href="fp-siteplan.html">Site Plan</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section class="order">
+                    <h2>Order on a Webpage</h2>
+                    <p>Order is needed so stuff isn't just staked on top of eachother</p>
+                    <p><b>Image goes here</b></p>
+                </section>
+                <section class="outline">
+                    <h2>Following a pattern or outline</h2>
+                    <p>Following patterns and keeping things consistant</p>
+                    <p><b>Image goes here</b></p>
+                </section>
+                <section class="images">
+                    <h2>Using Images</h2>
+                    <p>Using images to help make more sense.</p>
+                    <p><b>Image goes here</b></p>
+                </section>
+            </main>
+            <footer>
+                <div class="copyright">&copy;<span id="copyright"></span> Tips N Tricks - Cameron Gardner - WDD130-21</div>
+                    <ul class="listlinks">
+                        <li>
+                            <a href="https://www.facebook.com" title="Facebook" target="_blank">
+                                <img src="images/facebook.png" alt="Facebook"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/?lang=en" title="Twitter" target="_blank">
+                                <img src="images/twitter.png" alt="Twitter" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com" title="Instagram" target="_blank">
+                                <img src="images/instagram.png" alt="Instagram" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+            <script>
+                document.getElementById('copyright').textContent = new Date().getFullYear();
+            </script>
+        </div>
+    </body>
+</html>
