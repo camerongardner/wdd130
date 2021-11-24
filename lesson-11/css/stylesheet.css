@@ -1,7 +1,16 @@
+body {
+    justify-content: center;
+}
+    
 form {
+    display: grid;
     padding: 10px;
     color:blueviolet;
     background-color: cornsilk;
+    justify-items: center;
+    width: 500px;
+    grid-template-columns: 1fr 1fr;
+
 }
 li {
     list-style-type: none;
@@ -17,7 +26,9 @@ input {
     width: 150px;
     padding: 5px;
     margin-left: 5px;
+    grid-column: 2;
 }
 label {
     padding: 5px;
+    grid-column: 1;
 }
