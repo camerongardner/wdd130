@@ -15,6 +15,8 @@ input {
     background-color: darkgray;
     border-radius: 25px;
     width: 150px;
+    padding: 5px;
+    margin-left: 5px;
 }
 label {
     padding: 5px;
