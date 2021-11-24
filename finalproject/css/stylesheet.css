@@ -40,6 +40,7 @@ a {
 header ul {
     grid-column: 2/4;
     background-color: #805750;
+    display: flex;
 }
 header li:hover {
     background-color: #87754E;
@@ -53,17 +54,22 @@ footer li:hover {
 header h1 {
     display: flex;
     margin-left: 10px;
+    grid-row: 1;
 }
 nav {
+    display: flex;
     margin: 15px;
     grid-column: 2/4;
-    justify-content: center;
+    grid-row: 1;
+    justify-self: center;
+
 }
 footer ul {
     justify-self: right;
     grid-column: 3/4;
 }
 .listlinks {
+    grid-row: 2;
     padding: 10px;
     margin: 5px;
     display: flex;
