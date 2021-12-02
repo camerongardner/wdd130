@@ -114,6 +114,9 @@ li {
     justify-self: center;
     padding: 0;
 }
+.purpose {
+    text-align: center;
+}
 .purpose p {
     margin-top: 5px;
 }
