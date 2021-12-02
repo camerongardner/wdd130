@@ -11,6 +11,12 @@ h1, h2, h3, p, img{
     color: #FFF3F2;
     padding: 5px 10px 5px 15px;
 }
+h2 {
+    margin: 0;
+}
+p {
+    margin-top: 5px;
+}
 main {
     background-color: #7e5e59;
     border-radius: 25px;
@@ -91,10 +97,37 @@ li {
     height: auto;
 }
 /* Home */
+.tips {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .tips img {
+    grid-column: 2;
     width: 500px;
     height: auto;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 25px;
+}
+.list {
+    grid-column: 1;
+    align-self: center;
+    justify-self: center;
+    padding: 0;
+}
+.purpose p {
+    margin-top: 5px;
 }
 /* Visibility and Clarity */
+.cleangrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cleanpic {
+    display: flex;
+    margin-top: 5px;
+    margin-right: 5px;
+    justify-content: center;
+}
 /* Clean Coding */
 /* Organization and Flow */
