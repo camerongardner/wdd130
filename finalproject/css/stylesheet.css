@@ -94,11 +94,6 @@ li {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
 }
-/* .tips {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
-} */
 .listimg {
     transition: all 1s;
 }
@@ -136,7 +131,6 @@ li {
 .vispic2 {
     display: flex;
     justify-content: center;
-    align-items: center;
     transition: all 1s;
 }
 .vispic2:hover {
