@@ -152,8 +152,6 @@ li {
 }
 .cleanpic1:hover {
     transform: translate(50%, 25%) scale(1.5, 1.5 );
-    width: 50%;
-    height: auto;
 }
 .cleanpic2 {
     display: flex;
@@ -163,7 +161,5 @@ li {
 }
 .cleanpic2:hover {
     transform: translate(-30%, -30%) scale(1.5, 1.5 );
-    width: 50%;
-    height: auto;
 }
 /* Organization and Flow */
