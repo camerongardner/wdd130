@@ -10,7 +10,7 @@ h1 {
     font-family: 'Fira Sans', sans-serif;
     color: #FFF3F2;
 }
-h2, h3, p, img{
+h2, h3, p {
     font-family: 'Fira Sans', sans-serif;
     padding: 15px;
 }
@@ -27,6 +27,8 @@ main {
 a {
     display: block;
     font-family: 'PT Serif', serif;
+    color: #EEE5E9;
+    text-decoration: none;
 }
 header, footer {
     display: grid;
@@ -37,16 +39,16 @@ header, footer {
 header {
     margin-top: 15px;
 }
-a {
-    color: #EEE5E9;
-    text-decoration: none;
-}
 header ul {
     background-color: #805750;
 }
 header li:hover {
     background-color: #87754E;
     color: #FFF3F2;
+    border-radius: 25px;
+}
+img {
+    margin: 15px;
     border-radius: 25px;
 }
 footer {
@@ -92,8 +94,12 @@ li {
 }
 .tips img {
     grid-column: 2;
-    margin-top: 5px;
-    border-radius: 25px;
+    transition: all 1s;
+}
+.tips img:hover {
+    transform: translate(-28%, 30%) scale(1.5, 1.5 );
+    width: 600px;
+    height: auto;
 }
 .list {
     padding: 15px;
@@ -105,15 +111,46 @@ li {
     margin-top: 5px;
 }
 /* Visibility and Clarity */
+.visibility {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.vispic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+.vispic:hover {
+    transform: translate(-50%, 0) scale(1.5, 1.5 );
+    width: 300px;
+    height: auto;
+}
+/* Clean Coding */
 .cleangrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.cleanpic {
+.cleanpic1 {
     display: flex;
-    margin-top: 5px;
-    margin-right: 5px;
+    margin: 5px;
     justify-content: center;
+    transition: all 1s;
 }
-/* Clean Coding */
+.cleanpic1:hover {
+    transform: translate(50%, 25%) scale(1.5, 1.5 );
+    width: 50%;
+    height: auto;
+}
+.cleanpic2 {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    transition: all 1s;
+}
+.cleanpic2:hover {
+    transform: translate(-30%, -30%) scale(1.5, 1.5 );
+    width: 50%;
+    height: auto;
+}
 /* Organization and Flow */

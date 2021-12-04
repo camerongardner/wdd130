@@ -38,6 +38,10 @@ p {
     top: 24px;
     left: 325px;
     padding: 5px;
+    transition: all .5s ease-out;
+}
+.heart:hover {
+    transform: scale(1.5, 1.5 );
 }
 button:hover {
     transform: scale(1.5, 1.5 );
@@ -59,9 +63,11 @@ h2 {
     justify-self: center;
     align-self: center;
 }
+.details {
+    transition: all .5s ease-out;
+}
 .details:hover {
     transform: scale(1.5, 1.5 );
-    transition: all .5s ease-out;
 }
 h2 {
     padding-left: 10px;
