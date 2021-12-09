@@ -111,7 +111,7 @@ li {
     margin-top: 5px;
 }
 form {
-    transition: all 1s;
+    transition: all 5s;
     display: grid;
     grid-template-columns: 1fr 1fr;
     opacity: 0;
@@ -140,17 +140,37 @@ input {
 /* Visibility and Clarity */
 .visibility {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
+}
+.headings {
+    grid-row: 1;
+}
+.color {
+    grid-row: 1;
 }
 .vispic {
     display: flex;
     justify-content: center;
     align-items: center;
     transition: all 1s;
+    grid-column: 3;
 }
 .vispic:hover {
-    transform: translate(-50%, 0) scale(1.5, 1.5 );
+    transform: translate(0, -50%) scale(1.5, 1.5 );
+    width: 300px;
+    height: auto;
+}
+.vispic1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+    grid-column: 1;
+    grid-row: 2;
+}
+.vispic1:hover {
+    transform: translate(0, -50%) scale(1.5, 1.5 );
     width: 300px;
     height: auto;
 }
@@ -158,9 +178,11 @@ input {
     display: flex;
     justify-content: center;
     transition: all 1s;
+    grid-column: 2;
+    grid-row: 2;
 }
 .vispic2:hover {
-    transform: translate(-50%, -25%) scale(1.5, 1.5 );
+    transform: translate(0, -50%) scale(1.5, 1.5 );
     width: 300px;
     height: auto;
 }
