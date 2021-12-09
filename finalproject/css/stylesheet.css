@@ -25,7 +25,6 @@ main {
     margin-bottom: 10px;
 }
 a {
-    display: block;
     font-family: 'PT Serif', serif;
     color: #EEE5E9;
     text-decoration: none;
@@ -129,7 +128,6 @@ form:hover {
     transform: translate(0, -100%) scale(2, 2);
 }
 label {
-    grid-column: 1;
     justify-self: center;
 }
 input {
@@ -175,7 +173,6 @@ input {
 .cleanpic1 {
     display: flex;
     margin: 5px;
-    justify-content: center;
     transition: all 1s;
 }
 .cleanpic1:hover {
@@ -183,7 +180,6 @@ input {
 }
 .cleanpic2 {
     display: flex;
-    margin: 5px;
     justify-content: center;
     transition: all 1s;
 }
@@ -196,15 +192,11 @@ input {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
 }
-.outline {
-    grid-row: 2;
-}
 .wireframepics {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
     grid-row: 2;
-    grid-column: 1;
 }
 .wireframepics .wireframepics1 {
     transition: all 1s;
@@ -229,9 +221,6 @@ input {
 }
 .wireframepics .wireframepics4:hover {
     transform: translate(-60%, -60%) scale(2.4);
-}
-.images {
-    grid-column: 1;
 }
 .useimage {
     display: flex;
