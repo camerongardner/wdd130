@@ -194,7 +194,6 @@ input {
 }
 .cleanpic1 {
     display: flex;
-    margin: 5px;
     transition: all 1s;
 }
 .cleanpic1:hover {
