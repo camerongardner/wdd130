@@ -111,7 +111,7 @@ li {
     margin-top: 5px;
 }
 form {
-    transition: all 5s;
+    transition: all 2s;
     display: grid;
     grid-template-columns: 1fr 1fr;
     opacity: 0;
